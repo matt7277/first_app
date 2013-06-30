@@ -5,15 +5,15 @@ ruby '1.9.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem'rails','3.2.13'
 
-group: development, do 
+group :development, do 
   gem 'sqlite3'
 end
 
-group: production do 
+group :production do 
  gem'pg','0.12.2'
 end
 
-group: production do
+group :production do
   gem 'thin'
 end
 
